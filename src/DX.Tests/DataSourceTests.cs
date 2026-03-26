@@ -1,4 +1,5 @@
 using DX.Core.Abstractions;
+using DX.Core.Configuration;
 using DX.Core.Exceptions;
 using DX.Core.Types;
 using DX.Infrastructure.DataSources;

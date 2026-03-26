@@ -1,10 +1,8 @@
-﻿using DX.Application.Factories;
-using DX.Application.Services;
+﻿using DX.Application.Services;
 using DX.Cli.Commands;
 using DX.Cli.InputHelpers;
 using DX.Cli.UI;
 using DX.Core.Interfaces;
-using DX.Infrastructure.Factories;
 using DX.Infrastructure.Logging;
 
 MenuRenderer.ShowHeader();
@@ -15,7 +13,7 @@ UserInputHelper.WaitForKey();
 // Setup services with proper DI
 await using var manager = new DataSourceManager();
 IDataSourceFactory factory = new DX.Infrastructure.Factories.DataSourceFactory();
-var service = new DX.Application.Factories.DataSourceService(manager, factory);
+var service = new DataSourceService(manager, factory);
 var logger = new ConsoleLogger();
 var commandHandler = new CommandHandler(manager, service);
 var cts = new CancellationTokenSource();

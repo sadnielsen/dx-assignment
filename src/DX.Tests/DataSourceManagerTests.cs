@@ -1,5 +1,6 @@
 using DX.Application.Services;
 using DX.Core.Abstractions;
+using DX.Core.Configuration;
 using DX.Core.Types;
 using DX.Infrastructure.DataSources;
 
