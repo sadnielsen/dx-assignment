@@ -1,0 +1,11 @@
+<Solution>
+  <Project Path="DX.Application/DX.Application.csproj" Id="e865e9e7-7ae6-4dd9-8225-0ce2ed0b75e1" />
+  <Project Path="DX.Cli/DX.Cli.csproj">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
+  <Project Path="DX.Core/DX.Core.csproj" />
+  <Project Path="DX.Infrastructure/DX.Infrastructure.csproj" Id="de7f46e9-fb7b-44be-9227-ca10355c494a">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
+  <Project Path="DX.Tests/DX.Tests.csproj" Id="1687ba0e-5276-4e30-9811-1d10e0b2635d" />
+</Solution>
