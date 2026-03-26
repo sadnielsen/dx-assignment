@@ -2,7 +2,7 @@
 
 ## Status
 
-Deze repository is gearchiveerd.
+**Deze repository is gearchiveerd.**
 De assignment is gepresenteerd en zeer positief beoordeeld.
 
 ## 1  Context & Doelstelling
